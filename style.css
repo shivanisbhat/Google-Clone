@@ -1,0 +1,109 @@
+body{
+    /*display: flex;
+    height: 80vh;*/
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+.left, .right{
+    display: flex;
+    align-items: center;
+    /*height: 100px;
+    background-color: white;*/
+}
+.left a, .right a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.left h4, .right h4 {
+    margin: 0;
+    text-decoration: none;
+}
+.right img {
+    margin-right: 10px;
+    width: 45px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-top: 40px;*/
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px; /* Adjust value to control the roundness of corners */ 
+    width: 800px;
+    height: 50px;
+    border: 1px solid #ddd;
+}
+.Logo{
+    width: 300px;
+    margin: 0 auto 1px auto;
+    align-items: center;
+    display: block; 
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    border: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;  
+}
+.search button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer;
+
+}
+.search button:hover{
+    background-color: #0056b3;
+}
+.mic{
+    width: 35px;
+    margin-right: 10px;
+}
+.camara{
+    width: 35px;
+    margin-right: 10px; 
+}
+
+/*
+align-items: center; display: flex; justify-content: flex-start; padding: 10px 20px;
+
+align-items: center; display: flex; justify-content: space-between; padding: 10px 20px; margin-left: 1050px;
+
+justify-content: center; align-items: center; display: flex; margin-top: 40px; margin-left: 500px;
+*/
+
+.center h4{
+    font-size: small;
+}
+.center h3{
+    font-size: medium;
+}
+.Adv_input{
+    width: 700px; 
+    height: 20px;
+}
+.Advinput_Sub{
+    width: 350px; 
+    height: 20px;
+}
